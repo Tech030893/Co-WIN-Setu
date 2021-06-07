@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183BFAC62667C41200AC6897 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BFAC52667C41200AC6897 /* HomeViewController.swift */; };
+		183BFACA2667DEB000AC6897 /* SelectStateIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BFAC92667DEB000AC6897 /* SelectStateIDViewController.swift */; };
+		183BFACC2667DEC000AC6897 /* SelectDistrictIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BFACB2667DEC000AC6897 /* SelectDistrictIDViewController.swift */; };
+		183BFACE2667DF8900AC6897 /* PincodeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BFACD2667DF8900AC6897 /* PincodeDetailsViewController.swift */; };
+		183BFAD02667EDF700AC6897 /* DistrictDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BFACF2667EDF700AC6897 /* DistrictDetailsViewController.swift */; };
+		183BFAD22667F9E400AC6897 /* PincodeCentreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BFAD12667F9E400AC6897 /* PincodeCentreTableViewCell.swift */; };
+		183BFAD42667FCA200AC6897 /* DistrictCentreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BFAD32667FCA200AC6897 /* DistrictCentreTableViewCell.swift */; };
+		185E9087266B820E00DA56A5 /* HomeSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E9086266B820E00DA56A5 /* HomeSliderCollectionViewCell.swift */; };
+		1876C747266DFFF500D12ACA /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876C746266DFFF500D12ACA /* PhoneNumberViewController.swift */; };
+		1876C749266E006500D12ACA /* ValidateOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876C748266E006500D12ACA /* ValidateOTPViewController.swift */; };
+		1876C74F266E0AC200D12ACA /* otp-success.json in Resources */ = {isa = PBXBuildFile; fileRef = 1876C74E266E0AC200D12ACA /* otp-success.json */; };
+		1876C751266E2C4E00D12ACA /* phone-number.json in Resources */ = {isa = PBXBuildFile; fileRef = 1876C750266E2C4E00D12ACA /* phone-number.json */; };
+		18825983266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18825982266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift */; };
+		1894B8452668FBA20002B3EC /* SelectStateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894B8442668FBA20002B3EC /* SelectStateTableViewCell.swift */; };
+		1894B8472668FD150002B3EC /* SelectDistrictTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894B8462668FD150002B3EC /* SelectDistrictTableViewCell.swift */; };
+		18F2FF472663B90100A547B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2FF462663B90100A547B8 /* AppDelegate.swift */; };
+		18F2FF492663B90100A547B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2FF482663B90100A547B8 /* SceneDelegate.swift */; };
+		18F2FF4E2663B90100A547B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F2FF4C2663B90100A547B8 /* Main.storyboard */; };
+		18F2FF502663B90400A547B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F2FF4F2663B90400A547B8 /* Assets.xcassets */; };
+		18F2FF532663B90400A547B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F2FF512663B90400A547B8 /* LaunchScreen.storyboard */; };
+		18F2FF5B2663CAD700A547B8 /* WelcomeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2FF5A2663CAD700A547B8 /* WelcomeSliderViewController.swift */; };
+		18F2FF5D2663CB2000A547B8 /* FindByPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2FF5C2663CB2000A547B8 /* FindByPinViewController.swift */; };
+		18F2FF5F2663CB6000A547B8 /* FindByDistrictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2FF5E2663CB6000A547B8 /* FindByDistrictViewController.swift */; };
+		18F2FF612663CBE300A547B8 /* PinVaccinationCentresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2FF602663CBE300A547B8 /* PinVaccinationCentresViewController.swift */; };
+		18F2FF632663CC0F00A547B8 /* DistrictVaccinationCentresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2FF622663CC0F00A547B8 /* DistrictVaccinationCentresViewController.swift */; };
+		18F2FF6D2663E5D400A547B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F2FF6C2663E5D400A547B8 /* GoogleService-Info.plist */; };
+		394D45EEB723A19BAB23A369 /* Pods_Co_WIN_Setu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1AB3AFEEA249F9A2DD14F2 /* Pods_Co_WIN_Setu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183BFAC52667C41200AC6897 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		183BFAC92667DEB000AC6897 /* SelectStateIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStateIDViewController.swift; sourceTree = "<group>"; };
+		183BFACB2667DEC000AC6897 /* SelectDistrictIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDistrictIDViewController.swift; sourceTree = "<group>"; };
+		183BFACD2667DF8900AC6897 /* PincodeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeDetailsViewController.swift; sourceTree = "<group>"; };
+		183BFACF2667EDF700AC6897 /* DistrictDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictDetailsViewController.swift; sourceTree = "<group>"; };
+		183BFAD12667F9E400AC6897 /* PincodeCentreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeCentreTableViewCell.swift; sourceTree = "<group>"; };
+		183BFAD32667FCA200AC6897 /* DistrictCentreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictCentreTableViewCell.swift; sourceTree = "<group>"; };
+		185E9086266B820E00DA56A5 /* HomeSliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		1876C746266DFFF500D12ACA /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		1876C748266E006500D12ACA /* ValidateOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateOTPViewController.swift; sourceTree = "<group>"; };
+		1876C74E266E0AC200D12ACA /* otp-success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "otp-success.json"; sourceTree = "<group>"; };
+		1876C750266E2C4E00D12ACA /* phone-number.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "phone-number.json"; sourceTree = "<group>"; };
+		18825982266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		1894B8442668FBA20002B3EC /* SelectStateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStateTableViewCell.swift; sourceTree = "<group>"; };
+		1894B8462668FD150002B3EC /* SelectDistrictTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDistrictTableViewCell.swift; sourceTree = "<group>"; };
+		18F2FF432663B90100A547B8 /* Co-WIN Setu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Co-WIN Setu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2FF462663B90100A547B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F2FF482663B90100A547B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18F2FF4D2663B90100A547B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F2FF4F2663B90400A547B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F2FF522663B90400A547B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F2FF542663B90400A547B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2FF5A2663CAD700A547B8 /* WelcomeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSliderViewController.swift; sourceTree = "<group>"; };
+		18F2FF5C2663CB2000A547B8 /* FindByPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindByPinViewController.swift; sourceTree = "<group>"; };
+		18F2FF5E2663CB6000A547B8 /* FindByDistrictViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindByDistrictViewController.swift; sourceTree = "<group>"; };
+		18F2FF602663CBE300A547B8 /* PinVaccinationCentresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinVaccinationCentresViewController.swift; sourceTree = "<group>"; };
+		18F2FF622663CC0F00A547B8 /* DistrictVaccinationCentresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictVaccinationCentresViewController.swift; sourceTree = "<group>"; };
+		18F2FF6C2663E5D400A547B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60159778C35D66F9F52940F8 /* Pods-Co-WIN Setu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co-WIN Setu.debug.xcconfig"; path = "Target Support Files/Pods-Co-WIN Setu/Pods-Co-WIN Setu.debug.xcconfig"; sourceTree = "<group>"; };
+		E3CE2FEFA04ABB53D8F55A15 /* Pods-Co-WIN Setu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co-WIN Setu.release.xcconfig"; path = "Target Support Files/Pods-Co-WIN Setu/Pods-Co-WIN Setu.release.xcconfig"; sourceTree = "<group>"; };
+		EB1AB3AFEEA249F9A2DD14F2 /* Pods_Co_WIN_Setu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Co_WIN_Setu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F2FF402663B90100A547B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394D45EEB723A19BAB23A369 /* Pods_Co_WIN_Setu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183BFAC72667DE3800AC6897 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				183BFAC52667C41200AC6897 /* HomeViewController.swift */,
+				18F2FF5C2663CB2000A547B8 /* FindByPinViewController.swift */,
+				18F2FF602663CBE300A547B8 /* PinVaccinationCentresViewController.swift */,
+				183BFACD2667DF8900AC6897 /* PincodeDetailsViewController.swift */,
+				18F2FF5E2663CB6000A547B8 /* FindByDistrictViewController.swift */,
+				18F2FF622663CC0F00A547B8 /* DistrictVaccinationCentresViewController.swift */,
+				183BFACF2667EDF700AC6897 /* DistrictDetailsViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		183BFAC82667DE3F00AC6897 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				183BFAC92667DEB000AC6897 /* SelectStateIDViewController.swift */,
+				183BFACB2667DEC000AC6897 /* SelectDistrictIDViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		18F2FF3A2663B90100A547B8 = {
+			isa = PBXGroup;
+			children = (
+				18F2FF452663B90100A547B8 /* Co-WIN Setu */,
+				18F2FF442663B90100A547B8 /* Products */,
+				4B616542BD09789FA01B5A58 /* Pods */,
+				53A9464B8F3D5FD46F346053 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18F2FF442663B90100A547B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F2FF432663B90100A547B8 /* Co-WIN Setu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F2FF452663B90100A547B8 /* Co-WIN Setu */ = {
+			isa = PBXGroup;
+			children = (
+				18F2FF662663CCE100A547B8 /* Resources */,
+				18F2FF642663CC6100A547B8 /* Onboarding */,
+				18F2FF652663CC8B00A547B8 /* Controllers */,
+				18F2FF672663CD3E00A547B8 /* Views */,
+				18F2FF542663B90400A547B8 /* Info.plist */,
+				18F2FF6C2663E5D400A547B8 /* GoogleService-Info.plist */,
+			);
+			path = "Co-WIN Setu";
+			sourceTree = "<group>";
+		};
+		18F2FF642663CC6100A547B8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1876C746266DFFF500D12ACA /* PhoneNumberViewController.swift */,
+				1876C748266E006500D12ACA /* ValidateOTPViewController.swift */,
+				18F2FF5A2663CAD700A547B8 /* WelcomeSliderViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		18F2FF652663CC8B00A547B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				183BFAC82667DE3F00AC6897 /* Other */,
+				183BFAC72667DE3800AC6897 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18F2FF662663CCE100A547B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18F2FF462663B90100A547B8 /* AppDelegate.swift */,
+				18F2FF482663B90100A547B8 /* SceneDelegate.swift */,
+				18F2FF4F2663B90400A547B8 /* Assets.xcassets */,
+				1876C750266E2C4E00D12ACA /* phone-number.json */,
+				1876C74E266E0AC200D12ACA /* otp-success.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18F2FF672663CD3E00A547B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18F2FF902664054100A547B8 /* Cells */,
+				18F2FF4C2663B90100A547B8 /* Main.storyboard */,
+				18F2FF512663B90400A547B8 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18F2FF902664054100A547B8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				183BFAD12667F9E400AC6897 /* PincodeCentreTableViewCell.swift */,
+				183BFAD32667FCA200AC6897 /* DistrictCentreTableViewCell.swift */,
+				1894B8442668FBA20002B3EC /* SelectStateTableViewCell.swift */,
+				1894B8462668FD150002B3EC /* SelectDistrictTableViewCell.swift */,
+				185E9086266B820E00DA56A5 /* HomeSliderCollectionViewCell.swift */,
+				18825982266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4B616542BD09789FA01B5A58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60159778C35D66F9F52940F8 /* Pods-Co-WIN Setu.debug.xcconfig */,
+				E3CE2FEFA04ABB53D8F55A15 /* Pods-Co-WIN Setu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		53A9464B8F3D5FD46F346053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB1AB3AFEEA249F9A2DD14F2 /* Pods_Co_WIN_Setu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F2FF422663B90100A547B8 /* Co-WIN Setu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2FF572663B90400A547B8 /* Build configuration list for PBXNativeTarget "Co-WIN Setu" */;
+			buildPhases = (
+				5506976A79E01C7C39189557 /* [CP] Check Pods Manifest.lock */,
+				18F2FF3F2663B90100A547B8 /* Sources */,
+				18F2FF402663B90100A547B8 /* Frameworks */,
+				18F2FF412663B90100A547B8 /* Resources */,
+				F72693D9119AA7680CB368AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Co-WIN Setu";
+			productName = "Co-WIN Setu";
+			productReference = 18F2FF432663B90100A547B8 /* Co-WIN Setu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F2FF3B2663B90100A547B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					18F2FF422663B90100A547B8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 18F2FF3E2663B90100A547B8 /* Build configuration list for PBXProject "Co-WIN Setu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F2FF3A2663B90100A547B8;
+			productRefGroup = 18F2FF442663B90100A547B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F2FF422663B90100A547B8 /* Co-WIN Setu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F2FF412663B90100A547B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1876C74F266E0AC200D12ACA /* otp-success.json in Resources */,
+				18F2FF532663B90400A547B8 /* LaunchScreen.storyboard in Resources */,
+				1876C751266E2C4E00D12ACA /* phone-number.json in Resources */,
+				18F2FF6D2663E5D400A547B8 /* GoogleService-Info.plist in Resources */,
+				18F2FF502663B90400A547B8 /* Assets.xcassets in Resources */,
+				18F2FF4E2663B90100A547B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5506976A79E01C7C39189557 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Co-WIN Setu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72693D9119AA7680CB368AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Co-WIN Setu/Pods-Co-WIN Setu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Co-WIN Setu/Pods-Co-WIN Setu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Co-WIN Setu/Pods-Co-WIN Setu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F2FF3F2663B90100A547B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894B8452668FBA20002B3EC /* SelectStateTableViewCell.swift in Sources */,
+				183BFAD42667FCA200AC6897 /* DistrictCentreTableViewCell.swift in Sources */,
+				18F2FF632663CC0F00A547B8 /* DistrictVaccinationCentresViewController.swift in Sources */,
+				1894B8472668FD150002B3EC /* SelectDistrictTableViewCell.swift in Sources */,
+				18F2FF5D2663CB2000A547B8 /* FindByPinViewController.swift in Sources */,
+				18825983266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift in Sources */,
+				18F2FF5B2663CAD700A547B8 /* WelcomeSliderViewController.swift in Sources */,
+				183BFACE2667DF8900AC6897 /* PincodeDetailsViewController.swift in Sources */,
+				185E9087266B820E00DA56A5 /* HomeSliderCollectionViewCell.swift in Sources */,
+				183BFACC2667DEC000AC6897 /* SelectDistrictIDViewController.swift in Sources */,
+				183BFACA2667DEB000AC6897 /* SelectStateIDViewController.swift in Sources */,
+				1876C747266DFFF500D12ACA /* PhoneNumberViewController.swift in Sources */,
+				183BFAC62667C41200AC6897 /* HomeViewController.swift in Sources */,
+				18F2FF612663CBE300A547B8 /* PinVaccinationCentresViewController.swift in Sources */,
+				18F2FF472663B90100A547B8 /* AppDelegate.swift in Sources */,
+				18F2FF5F2663CB6000A547B8 /* FindByDistrictViewController.swift in Sources */,
+				18F2FF492663B90100A547B8 /* SceneDelegate.swift in Sources */,
+				183BFAD22667F9E400AC6897 /* PincodeCentreTableViewCell.swift in Sources */,
+				1876C749266E006500D12ACA /* ValidateOTPViewController.swift in Sources */,
+				183BFAD02667EDF700AC6897 /* DistrictDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18F2FF4C2663B90100A547B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F2FF4D2663B90100A547B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F2FF512663B90400A547B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F2FF522663B90400A547B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F2FF552663B90400A547B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F2FF562663B90400A547B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F2FF582663B90400A547B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60159778C35D66F9F52940F8 /* Pods-Co-WIN Setu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Co-WIN Setu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tech030893.Co-WIN-Setu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F2FF592663B90400A547B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CE2FEFA04ABB53D8F55A15 /* Pods-Co-WIN Setu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Co-WIN Setu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tech030893.Co-WIN-Setu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F2FF3E2663B90100A547B8 /* Build configuration list for PBXProject "Co-WIN Setu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2FF552663B90400A547B8 /* Debug */,
+				18F2FF562663B90400A547B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2FF572663B90400A547B8 /* Build configuration list for PBXNativeTarget "Co-WIN Setu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2FF582663B90400A547B8 /* Debug */,
+				18F2FF592663B90400A547B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F2FF3B2663B90100A547B8 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Co_WIN_Setu {
+  umbrella header "Pods-Co-WIN Setu-umbrella.h"
+
+  export *
+  module * { export * }
+}
