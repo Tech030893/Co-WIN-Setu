@@ -115,6 +115,7 @@ extension FindByDistrictViewController
         {
             let dateFormatter = DateFormatter()
             dateFormatter.dateStyle = .short
+            dateFormatter.dateFormat = "dd.MM.yy"
             districtDateTF.text = dateFormatter.string(from: datePicker.date)
         }
         districtDateTF.resignFirstResponder()

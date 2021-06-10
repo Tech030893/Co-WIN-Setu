@@ -113,6 +113,7 @@ extension FindByPinViewController
         {
             let dateFormatter = DateFormatter()
             dateFormatter.dateStyle = .short
+            dateFormatter.dateFormat = "dd.MM.yy"
             pincodeDateTF.text = dateFormatter.string(from: datePicker.date)
         }
         pincodeDateTF.resignFirstResponder()

@@ -49,3 +49,22 @@ Co-WIN Setu app is fully functional app designed using Co-WIN Public API's, whic
 [![Home-Slider-Screen.gif](https://i.postimg.cc/Qx8BJsqz/Home-Slider-Screen.gif)](https://postimg.cc/8sYPT29d)
 
 [![Home-Screen.png](https://i.postimg.cc/1t0tDYVP/Home-Screen.png)](https://postimg.cc/DJZnT6cY)
+
+[![Vaccination-By-Pincode.png](https://i.postimg.cc/gcBP39cr/Vaccination-By-Pincode.png)](https://postimg.cc/Sj85pvMp)
+
+[![Vaccination-Result-Pincode.png](https://i.postimg.cc/DmVj5PYp/Vaccination-Result-Pincode.png)](https://postimg.cc/fSKfRmsY)
+
+[![Vaccination-Details-Pincode.png](https://i.postimg.cc/nhT8VNWH/Vaccination-Details-Pincode.png)](https://postimg.cc/18g7J7PT)
+
+[![Vaccination-By-District.png](https://i.postimg.cc/d3RHHyPq/Vaccination-By-District.png)](https://postimg.cc/RJFLqqZ8)
+
+[![State-Pick.png](https://i.postimg.cc/xdbPpzMW/State-Pick.png)](https://postimg.cc/67tRyTH0)
+
+[![District-Pick.png](https://i.postimg.cc/xdKzbyKT/District-Pick.png)](https://postimg.cc/hJtjkmyH)
+
+[![No-Data-Found-District.png](https://i.postimg.cc/NGW2bzpf/No-Data-Found-District.png)](https://postimg.cc/G9xpmzWZ)
+
+[![Vaccination-Result-District.png](https://i.postimg.cc/JnrGHwrP/Vaccination-Result-District.png)](https://postimg.cc/KKWZCHgM)
+
+[![Vaccination-Details-District.png](https://i.postimg.cc/1X4XMpNF/Vaccination-Details-District.png)](https://postimg.cc/BP9JnPpZ)
+
