@@ -37,6 +37,14 @@ Co-WIN Setu app is fully functional app designed using Co-WIN Public API's, whic
 - Finally the user gets the result or an alert popup if there is no record found.
 - Useful helpline numbers are displayed on buttons, which can redirect you to calling screen.
 - Useful banners which lets user to take precautions for COVID-19.
+- This application is fully Dark Mode and Light Mode supportive.
+- Project is still work in progress.
+- App is functional, free and ready to use.
+
+### Note:
+- This app is built using apisetu.gov.in API's.
+- All rights are reserved with apisetu.gov.in.
+- Do NOT use this app illegally.
 
 ## Application Recordings & ScreenShots
 
@@ -67,4 +75,3 @@ Co-WIN Setu app is fully functional app designed using Co-WIN Public API's, whic
 [![Vaccination-Result-District.png](https://i.postimg.cc/JnrGHwrP/Vaccination-Result-District.png)](https://postimg.cc/KKWZCHgM)
 
 [![Vaccination-Details-District.png](https://i.postimg.cc/1X4XMpNF/Vaccination-Details-District.png)](https://postimg.cc/BP9JnPpZ)
-
