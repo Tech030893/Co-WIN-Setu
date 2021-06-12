@@ -15,6 +15,14 @@ class HomeViewController: UIViewController
         sliderCollectionView.reloadData()
     }
     
+    // MARK: - Profile & Settings Button
+    
+    @IBAction func settingsButtonPress(_ sender: UIButton)
+    {
+        let vc = storyboard?.instantiateViewController(identifier: "SettingsViewController") as! SettingsViewController
+        UIApplication.shared.windows[0].rootViewController = vc
+    }
+    
     // MARK: - Search Vaccination Centres Buttons
     
     @IBAction func searchByPinPress(_ sender: UIButton)

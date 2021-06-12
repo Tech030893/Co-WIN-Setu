@@ -20,6 +20,10 @@
 		1876C74F266E0AC200D12ACA /* otp-success.json in Resources */ = {isa = PBXBuildFile; fileRef = 1876C74E266E0AC200D12ACA /* otp-success.json */; };
 		1876C751266E2C4E00D12ACA /* phone-number.json in Resources */ = {isa = PBXBuildFile; fileRef = 1876C750266E2C4E00D12ACA /* phone-number.json */; };
 		18825983266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18825982266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift */; };
+		1888646F2674B5DC00F1AE55 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888646E2674B5DC00F1AE55 /* SettingsViewController.swift */; };
+		188864752674C06200F1AE55 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188864742674C06200F1AE55 /* SettingsTableViewCell.swift */; };
+		188864782674C26B00F1AE55 /* SettingsCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188864772674C26B00F1AE55 /* SettingsCellModel.swift */; };
+		1888647A2674CA1D00F1AE55 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188864792674CA1D00F1AE55 /* ProfileViewController.swift */; };
 		1894B8452668FBA20002B3EC /* SelectStateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894B8442668FBA20002B3EC /* SelectStateTableViewCell.swift */; };
 		1894B8472668FD150002B3EC /* SelectDistrictTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894B8462668FD150002B3EC /* SelectDistrictTableViewCell.swift */; };
 		18F2FF472663B90100A547B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2FF462663B90100A547B8 /* AppDelegate.swift */; };
@@ -50,6 +54,10 @@
 		1876C74E266E0AC200D12ACA /* otp-success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "otp-success.json"; sourceTree = "<group>"; };
 		1876C750266E2C4E00D12ACA /* phone-number.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "phone-number.json"; sourceTree = "<group>"; };
 		18825982266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		1888646E2674B5DC00F1AE55 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		188864742674C06200F1AE55 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		188864772674C26B00F1AE55 /* SettingsCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCellModel.swift; sourceTree = "<group>"; };
+		188864792674CA1D00F1AE55 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		1894B8442668FBA20002B3EC /* SelectStateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStateTableViewCell.swift; sourceTree = "<group>"; };
 		1894B8462668FD150002B3EC /* SelectDistrictTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDistrictTableViewCell.swift; sourceTree = "<group>"; };
 		18F2FF432663B90100A547B8 /* Co-WIN Setu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Co-WIN Setu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,12 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				183BFAC52667C41200AC6897 /* HomeViewController.swift */,
+				1888646E2674B5DC00F1AE55 /* SettingsViewController.swift */,
 				18F2FF5C2663CB2000A547B8 /* FindByPinViewController.swift */,
-				18F2FF602663CBE300A547B8 /* PinVaccinationCentresViewController.swift */,
-				183BFACD2667DF8900AC6897 /* PincodeDetailsViewController.swift */,
 				18F2FF5E2663CB6000A547B8 /* FindByDistrictViewController.swift */,
-				18F2FF622663CC0F00A547B8 /* DistrictVaccinationCentresViewController.swift */,
-				183BFACF2667EDF700AC6897 /* DistrictDetailsViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -103,6 +108,56 @@
 				183BFACB2667DEC000AC6897 /* SelectDistrictIDViewController.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		1888646D2674B5BA00F1AE55 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				188864792674CA1D00F1AE55 /* ProfileViewController.swift */,
+				18F2FF602663CBE300A547B8 /* PinVaccinationCentresViewController.swift */,
+				183BFACD2667DF8900AC6897 /* PincodeDetailsViewController.swift */,
+				18F2FF622663CC0F00A547B8 /* DistrictVaccinationCentresViewController.swift */,
+				183BFACF2667EDF700AC6897 /* DistrictDetailsViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		188864702674B69400F1AE55 /* Lottie Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1876C750266E2C4E00D12ACA /* phone-number.json */,
+				1876C74E266E0AC200D12ACA /* otp-success.json */,
+			);
+			path = "Lottie Animation";
+			sourceTree = "<group>";
+		};
+		188864762674C25200F1AE55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				188864772674C26B00F1AE55 /* SettingsCellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1888647B2674DE7100F1AE55 /* Tableview Cells */ = {
+			isa = PBXGroup;
+			children = (
+				188864742674C06200F1AE55 /* SettingsTableViewCell.swift */,
+				183BFAD12667F9E400AC6897 /* PincodeCentreTableViewCell.swift */,
+				183BFAD32667FCA200AC6897 /* DistrictCentreTableViewCell.swift */,
+				1894B8442668FBA20002B3EC /* SelectStateTableViewCell.swift */,
+				1894B8462668FD150002B3EC /* SelectDistrictTableViewCell.swift */,
+			);
+			path = "Tableview Cells";
+			sourceTree = "<group>";
+		};
+		1888647C2674DE7B00F1AE55 /* Collectionview Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18825982266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift */,
+				185E9086266B820E00DA56A5 /* HomeSliderCollectionViewCell.swift */,
+			);
+			path = "Collectionview Cells";
 			sourceTree = "<group>";
 		};
 		18F2FF3A2663B90100A547B8 = {
@@ -126,8 +181,8 @@
 		18F2FF452663B90100A547B8 /* Co-WIN Setu */ = {
 			isa = PBXGroup;
 			children = (
+				188864762674C25200F1AE55 /* Models */,
 				18F2FF662663CCE100A547B8 /* Resources */,
-				18F2FF642663CC6100A547B8 /* Onboarding */,
 				18F2FF652663CC8B00A547B8 /* Controllers */,
 				18F2FF672663CD3E00A547B8 /* Views */,
 				18F2FF542663B90400A547B8 /* Info.plist */,
@@ -149,8 +204,10 @@
 		18F2FF652663CC8B00A547B8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				183BFAC82667DE3F00AC6897 /* Other */,
+				18F2FF642663CC6100A547B8 /* Onboarding */,
 				183BFAC72667DE3800AC6897 /* Main */,
+				1888646D2674B5BA00F1AE55 /* General */,
+				183BFAC82667DE3F00AC6897 /* Other */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -158,11 +215,10 @@
 		18F2FF662663CCE100A547B8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				188864702674B69400F1AE55 /* Lottie Animation */,
 				18F2FF462663B90100A547B8 /* AppDelegate.swift */,
 				18F2FF482663B90100A547B8 /* SceneDelegate.swift */,
 				18F2FF4F2663B90400A547B8 /* Assets.xcassets */,
-				1876C750266E2C4E00D12ACA /* phone-number.json */,
-				1876C74E266E0AC200D12ACA /* otp-success.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -180,12 +236,8 @@
 		18F2FF902664054100A547B8 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				183BFAD12667F9E400AC6897 /* PincodeCentreTableViewCell.swift */,
-				183BFAD32667FCA200AC6897 /* DistrictCentreTableViewCell.swift */,
-				1894B8442668FBA20002B3EC /* SelectStateTableViewCell.swift */,
-				1894B8462668FD150002B3EC /* SelectDistrictTableViewCell.swift */,
-				185E9086266B820E00DA56A5 /* HomeSliderCollectionViewCell.swift */,
-				18825982266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift */,
+				1888647C2674DE7B00F1AE55 /* Collectionview Cells */,
+				1888647B2674DE7100F1AE55 /* Tableview Cells */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -326,9 +378,11 @@
 			files = (
 				1894B8452668FBA20002B3EC /* SelectStateTableViewCell.swift in Sources */,
 				183BFAD42667FCA200AC6897 /* DistrictCentreTableViewCell.swift in Sources */,
+				1888646F2674B5DC00F1AE55 /* SettingsViewController.swift in Sources */,
 				18F2FF632663CC0F00A547B8 /* DistrictVaccinationCentresViewController.swift in Sources */,
 				1894B8472668FD150002B3EC /* SelectDistrictTableViewCell.swift in Sources */,
 				18F2FF5D2663CB2000A547B8 /* FindByPinViewController.swift in Sources */,
+				1888647A2674CA1D00F1AE55 /* ProfileViewController.swift in Sources */,
 				18825983266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift in Sources */,
 				18F2FF5B2663CAD700A547B8 /* WelcomeSliderViewController.swift in Sources */,
 				183BFACE2667DF8900AC6897 /* PincodeDetailsViewController.swift in Sources */,
@@ -337,11 +391,13 @@
 				183BFACA2667DEB000AC6897 /* SelectStateIDViewController.swift in Sources */,
 				1876C747266DFFF500D12ACA /* PhoneNumberViewController.swift in Sources */,
 				183BFAC62667C41200AC6897 /* HomeViewController.swift in Sources */,
+				188864782674C26B00F1AE55 /* SettingsCellModel.swift in Sources */,
 				18F2FF612663CBE300A547B8 /* PinVaccinationCentresViewController.swift in Sources */,
 				18F2FF472663B90100A547B8 /* AppDelegate.swift in Sources */,
 				18F2FF5F2663CB6000A547B8 /* FindByDistrictViewController.swift in Sources */,
 				18F2FF492663B90100A547B8 /* SceneDelegate.swift in Sources */,
 				183BFAD22667F9E400AC6897 /* PincodeCentreTableViewCell.swift in Sources */,
+				188864752674C06200F1AE55 /* SettingsTableViewCell.swift in Sources */,
 				1876C749266E006500D12ACA /* ValidateOTPViewController.swift in Sources */,
 				183BFAD02667EDF700AC6897 /* DistrictDetailsViewController.swift in Sources */,
 			);
