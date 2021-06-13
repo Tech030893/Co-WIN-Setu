@@ -24,6 +24,7 @@
 		188864752674C06200F1AE55 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188864742674C06200F1AE55 /* SettingsTableViewCell.swift */; };
 		188864782674C26B00F1AE55 /* SettingsCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188864772674C26B00F1AE55 /* SettingsCellModel.swift */; };
 		1888647A2674CA1D00F1AE55 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188864792674CA1D00F1AE55 /* ProfileViewController.swift */; };
+		1888647E2674EF1C00F1AE55 /* HelplineNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888647D2674EF1C00F1AE55 /* HelplineNumbersViewController.swift */; };
 		1894B8452668FBA20002B3EC /* SelectStateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894B8442668FBA20002B3EC /* SelectStateTableViewCell.swift */; };
 		1894B8472668FD150002B3EC /* SelectDistrictTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894B8462668FD150002B3EC /* SelectDistrictTableViewCell.swift */; };
 		18F2FF472663B90100A547B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2FF462663B90100A547B8 /* AppDelegate.swift */; };
@@ -58,6 +59,7 @@
 		188864742674C06200F1AE55 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		188864772674C26B00F1AE55 /* SettingsCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCellModel.swift; sourceTree = "<group>"; };
 		188864792674CA1D00F1AE55 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1888647D2674EF1C00F1AE55 /* HelplineNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelplineNumbersViewController.swift; sourceTree = "<group>"; };
 		1894B8442668FBA20002B3EC /* SelectStateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStateTableViewCell.swift; sourceTree = "<group>"; };
 		1894B8462668FD150002B3EC /* SelectDistrictTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDistrictTableViewCell.swift; sourceTree = "<group>"; };
 		18F2FF432663B90100A547B8 /* Co-WIN Setu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Co-WIN Setu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				188864792674CA1D00F1AE55 /* ProfileViewController.swift */,
+				1888647D2674EF1C00F1AE55 /* HelplineNumbersViewController.swift */,
 				18F2FF602663CBE300A547B8 /* PinVaccinationCentresViewController.swift */,
 				183BFACD2667DF8900AC6897 /* PincodeDetailsViewController.swift */,
 				18F2FF622663CC0F00A547B8 /* DistrictVaccinationCentresViewController.swift */,
@@ -383,6 +386,7 @@
 				1894B8472668FD150002B3EC /* SelectDistrictTableViewCell.swift in Sources */,
 				18F2FF5D2663CB2000A547B8 /* FindByPinViewController.swift in Sources */,
 				1888647A2674CA1D00F1AE55 /* ProfileViewController.swift in Sources */,
+				1888647E2674EF1C00F1AE55 /* HelplineNumbersViewController.swift in Sources */,
 				18825983266BC924004DD99C /* WelcomeSliderCollectionViewCell.swift in Sources */,
 				18F2FF5B2663CAD700A547B8 /* WelcomeSliderViewController.swift in Sources */,
 				183BFACE2667DF8900AC6897 /* PincodeDetailsViewController.swift in Sources */,

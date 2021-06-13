@@ -79,7 +79,9 @@ class SettingsViewController: UIViewController
     
     private func didTapCallHelpline()
     {
-        
+        let vc = storyboard?.instantiateViewController(identifier: "HelplineNumbersViewController") as! HelplineNumbersViewController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true, completion: nil)
     }
     
     private func didTapLogout()

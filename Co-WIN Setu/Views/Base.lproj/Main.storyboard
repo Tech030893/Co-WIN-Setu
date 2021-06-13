@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TnC-VE-Hgw">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Image references" minToolsVersion="12.0"/>
@@ -140,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-114" y="56"/>
+            <point key="canvasLocation" x="-130" y="398"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="zim-1z-epA">
@@ -207,87 +207,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wNC-0V-Ti1">
                                 <rect key="frame" x="10" y="301.33333333333331" width="408" height="580.66666666666674"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helpline Numbers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gX6-IU-ret">
-                                        <rect key="frame" x="10" y="15.000000000000002" width="156.33333333333334" height="24.666666666666671"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
-                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="VUH-6u-CCz">
-                                        <rect key="frame" x="10" y="54.666666666666686" width="388" height="270"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qr1-x8-wzd">
-                                                <rect key="frame" x="0.0" y="0.0" width="388" height="50"/>
-                                                <color key="backgroundColor" name="homeButtonColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="YWu-Co-Kgl"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <state key="normal" title="Health Ministry Healpline - 1075">
-                                                    <color key="titleColor" systemColor="labelColor"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="healthMinisterButton:" destination="wgE-t8-fjs" eventType="touchUpInside" id="x6a-V2-WMk"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cmt-yy-KI1">
-                                                <rect key="frame" x="0.0" y="55" width="388" height="50"/>
-                                                <color key="backgroundColor" name="homeButtonColor"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <state key="normal" title="Child Helpline - 1098">
-                                                    <color key="titleColor" systemColor="labelColor"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="childHelpButton:" destination="wgE-t8-fjs" eventType="touchUpInside" id="Z57-hO-WDD"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEC-jA-MqD">
-                                                <rect key="frame" x="0.0" y="110" width="388" height="50"/>
-                                                <color key="backgroundColor" name="homeButtonColor"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <state key="normal" title="Mental Health Helpline - 8046110007">
-                                                    <color key="titleColor" systemColor="labelColor"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="mentalHealthButton:" destination="wgE-t8-fjs" eventType="touchUpInside" id="7Eo-el-xqn"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUp-in-UKu">
-                                                <rect key="frame" x="0.0" y="165" width="388" height="50"/>
-                                                <color key="backgroundColor" name="homeButtonColor"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <state key="normal" title="Senior Citizens Helpline - 14567">
-                                                    <color key="titleColor" systemColor="labelColor"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="seniorCitizensButton:" destination="wgE-t8-fjs" eventType="touchUpInside" id="iWT-NU-Xna"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLn-fC-hO2">
-                                                <rect key="frame" x="0.0" y="220" width="388" height="50"/>
-                                                <color key="backgroundColor" name="homeButtonColor"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <state key="normal" title="MyGov Helpdesk - 9013151515">
-                                                    <color key="titleColor" systemColor="labelColor"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="myGovtButton:" destination="wgE-t8-fjs" eventType="touchUpInside" id="8i2-6D-ktG"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="Cmt-yy-KI1" firstAttribute="height" secondItem="Qr1-x8-wzd" secondAttribute="height" id="7ep-ay-TM5"/>
-                                            <constraint firstItem="Cmt-yy-KI1" firstAttribute="width" secondItem="Qr1-x8-wzd" secondAttribute="width" id="LvH-Bx-rTz"/>
-                                            <constraint firstItem="QUp-in-UKu" firstAttribute="height" secondItem="Qr1-x8-wzd" secondAttribute="height" id="P3A-gV-JBk"/>
-                                            <constraint firstItem="QUp-in-UKu" firstAttribute="width" secondItem="Qr1-x8-wzd" secondAttribute="width" id="bHG-yq-qqu"/>
-                                            <constraint firstItem="IEC-jA-MqD" firstAttribute="height" secondItem="Qr1-x8-wzd" secondAttribute="height" id="ewv-60-PCP"/>
-                                            <constraint firstItem="RLn-fC-hO2" firstAttribute="width" secondItem="Qr1-x8-wzd" secondAttribute="width" id="iYZ-C5-4Zq"/>
-                                            <constraint firstItem="RLn-fC-hO2" firstAttribute="height" secondItem="Qr1-x8-wzd" secondAttribute="height" id="nBW-uo-v8B"/>
-                                            <constraint firstItem="IEC-jA-MqD" firstAttribute="width" secondItem="Qr1-x8-wzd" secondAttribute="width" id="qQb-vd-aXg"/>
-                                        </constraints>
-                                    </stackView>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rG1-E1-ym1">
-                                        <rect key="frame" x="10" y="379.33333333333331" width="388" height="186.33333333333331"/>
+                                        <rect key="frame" x="10" y="385.66666666666669" width="388" height="180.00000000000006"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1LC-kC-sRT">
                                             <size key="itemSize" width="388" height="203.00000000000006"/>
@@ -297,7 +218,7 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeSliderCollectionViewCell" id="oXy-OJ-nnU" customClass="HomeSliderCollectionViewCell" customModule="Co_WIN_Setu" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="-8.3333333333333339" width="388" height="203.00000000000006"/>
+                                                <rect key="frame" x="0.0" y="-11.666666666666666" width="388" height="203.00000000000006"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="pm1-nw-3UW">
                                                     <rect key="frame" x="0.0" y="0.0" width="388" height="203.00000000000006"/>
@@ -327,25 +248,86 @@
                                         </connections>
                                     </collectionView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precautions for COVID-19:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89m-UX-ZiB">
-                                        <rect key="frame" x="10" y="339.66666666666669" width="218" height="24.666666666666686"/>
+                                        <rect key="frame" x="10" y="346.00000000000006" width="218" height="24.666666666666686"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1q-Tj-LmO">
+                                        <rect key="frame" x="20" y="14.999999999999993" width="368" height="116.33333333333331"/>
+                                        <string key="text">Co-WIN Setu is an important step in our fight against COVID-19. By leveraging technology, it provides important information. As more and more people use it, it's effectiveness will increase. I urge you all to download it.</string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PMModiFace" translatesAutoresizingMaskIntoConstraints="NO" id="x37-bR-TEh">
+                                        <rect key="frame" x="20" y="146.33333333333337" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Qbh-VL-lJH"/>
+                                            <constraint firstAttribute="width" constant="50" id="hvI-ya-o9w"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Narendra Modi" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfU-MG-9Hc">
+                                        <rect key="frame" x="80.000000000000014" y="148.33333333333337" width="132.33333333333337" height="24.666666666666657"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hon'ble Prime Minister of India" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAb-Al-6rD">
+                                        <rect key="frame" x="80" y="175" width="228" height="22"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dja-pg-99T">
+                                        <rect key="frame" x="10" y="281.00000000000006" width="388" height="50"/>
+                                        <color key="backgroundColor" name="buttonColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="VAd-bw-ko4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                        <state key="normal" title="Donate via PM Cares Website">
+                                            <color key="titleColor" name="buttonLabelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pmCaresButtonPress:" destination="wgE-t8-fjs" eventType="touchUpInside" id="mZ5-9C-2sp"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pmCareLogo" translatesAutoresizingMaskIntoConstraints="NO" id="EuG-rq-NcV">
+                                        <rect key="frame" x="10" y="219.00000000000006" width="388" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="tfU-pP-IYW"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
+                                    <constraint firstItem="89m-UX-ZiB" firstAttribute="top" secondItem="dja-pg-99T" secondAttribute="bottom" constant="15" id="1W2-m5-a46"/>
                                     <constraint firstAttribute="bottom" secondItem="rG1-E1-ym1" secondAttribute="bottom" constant="15" id="1W9-v0-552"/>
-                                    <constraint firstItem="VUH-6u-CCz" firstAttribute="top" secondItem="gX6-IU-ret" secondAttribute="bottom" constant="15" id="1gq-h4-z5W"/>
-                                    <constraint firstItem="gX6-IU-ret" firstAttribute="leading" secondItem="wNC-0V-Ti1" secondAttribute="leading" constant="10" id="2kw-KG-77J"/>
                                     <constraint firstItem="rG1-E1-ym1" firstAttribute="leading" secondItem="wNC-0V-Ti1" secondAttribute="leading" constant="10" id="7Kj-ug-v7C"/>
+                                    <constraint firstItem="eAb-Al-6rD" firstAttribute="leading" secondItem="x37-bR-TEh" secondAttribute="trailing" constant="10" id="8Xc-hB-OX7"/>
                                     <constraint firstAttribute="trailing" secondItem="rG1-E1-ym1" secondAttribute="trailing" constant="10" id="9pJ-i0-Wug"/>
-                                    <constraint firstItem="gX6-IU-ret" firstAttribute="top" secondItem="wNC-0V-Ti1" secondAttribute="top" constant="15" id="HDV-VT-IzH"/>
+                                    <constraint firstAttribute="trailing" secondItem="dja-pg-99T" secondAttribute="trailing" constant="10" id="9qx-HQ-jRz"/>
+                                    <constraint firstItem="f1q-Tj-LmO" firstAttribute="leading" secondItem="wNC-0V-Ti1" secondAttribute="leading" constant="20" id="ATb-e6-vdI"/>
+                                    <constraint firstItem="x37-bR-TEh" firstAttribute="leading" secondItem="wNC-0V-Ti1" secondAttribute="leading" constant="20" id="BBh-hG-jTt"/>
+                                    <constraint firstAttribute="trailing" secondItem="EuG-rq-NcV" secondAttribute="trailing" constant="10" id="BuL-gS-q9s"/>
+                                    <constraint firstAttribute="trailing" secondItem="f1q-Tj-LmO" secondAttribute="trailing" constant="20" id="CY6-oG-8a5"/>
                                     <constraint firstItem="89m-UX-ZiB" firstAttribute="leading" secondItem="wNC-0V-Ti1" secondAttribute="leading" constant="10" id="HlA-a9-erD"/>
                                     <constraint firstItem="rG1-E1-ym1" firstAttribute="top" secondItem="89m-UX-ZiB" secondAttribute="bottom" constant="15" id="IFP-7o-r64"/>
-                                    <constraint firstAttribute="trailing" secondItem="VUH-6u-CCz" secondAttribute="trailing" constant="10" id="glc-Gn-bVd"/>
-                                    <constraint firstItem="VUH-6u-CCz" firstAttribute="leading" secondItem="wNC-0V-Ti1" secondAttribute="leading" constant="10" id="oPZ-Lq-J9r"/>
-                                    <constraint firstItem="89m-UX-ZiB" firstAttribute="top" secondItem="VUH-6u-CCz" secondAttribute="bottom" constant="15" id="vz9-Bh-xr2"/>
+                                    <constraint firstItem="dja-pg-99T" firstAttribute="leading" secondItem="wNC-0V-Ti1" secondAttribute="leading" constant="10" id="Ocz-vN-ulY"/>
+                                    <constraint firstItem="EuG-rq-NcV" firstAttribute="leading" secondItem="wNC-0V-Ti1" secondAttribute="leading" constant="10" id="SMO-Cy-8c5"/>
+                                    <constraint firstItem="x37-bR-TEh" firstAttribute="top" secondItem="f1q-Tj-LmO" secondAttribute="bottom" constant="15" id="X7D-2N-iEY"/>
+                                    <constraint firstItem="eAb-Al-6rD" firstAttribute="top" secondItem="YfU-MG-9Hc" secondAttribute="bottom" constant="2" id="gQv-XD-CuB"/>
+                                    <constraint firstItem="dja-pg-99T" firstAttribute="top" secondItem="EuG-rq-NcV" secondAttribute="bottom" constant="22" id="gVh-yC-SBY"/>
+                                    <constraint firstItem="YfU-MG-9Hc" firstAttribute="leading" secondItem="x37-bR-TEh" secondAttribute="trailing" constant="10" id="hHf-lo-hUf"/>
+                                    <constraint firstItem="f1q-Tj-LmO" firstAttribute="top" secondItem="wNC-0V-Ti1" secondAttribute="top" constant="15" id="oTf-aF-G7z"/>
+                                    <constraint firstItem="YfU-MG-9Hc" firstAttribute="top" secondItem="f1q-Tj-LmO" secondAttribute="bottom" constant="17" id="sIo-sN-Lsc"/>
+                                    <constraint firstItem="EuG-rq-NcV" firstAttribute="top" secondItem="eAb-Al-6rD" secondAttribute="bottom" constant="22" id="ut3-yg-UBa"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -402,7 +384,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hsb-aU-TgO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="774" y="56"/>
+            <point key="canvasLocation" x="742.99065420560748" y="397.84017278617711"/>
         </scene>
         <!--Phone Number View Controller-->
         <scene sceneID="gql-fX-t10">
@@ -495,6 +477,13 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X4q-d9-ATx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="t6h-Ma-s4Y">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <viewLayoutGuide key="safeArea" id="wUS-ZO-pM9"/>
+                    <viewLayoutGuide key="contentLayoutGuide" id="bkF-sP-m0J"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="dZT-6z-taf"/>
+                </scrollView>
             </objects>
             <point key="canvasLocation" x="-981" y="-329"/>
         </scene>
@@ -804,7 +793,154 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V2T-c1-k8j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1611" y="398"/>
+            <point key="canvasLocation" x="318" y="1830"/>
+        </scene>
+        <!--Helpline Numbers View Controller-->
+        <scene sceneID="kdz-Hm-UYu">
+            <objects>
+                <viewController storyboardIdentifier="HelplineNumbersViewController" id="r1o-ve-mCI" customClass="HelplineNumbersViewController" customModule="Co_WIN_Setu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NaA-6C-mCi">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Important Helpline Numbers" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTR-Tr-AyS">
+                                <rect key="frame" x="60" y="74" width="308" height="65.333333333333314"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2q-SD-sDl">
+                                <rect key="frame" x="30" y="74" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="8mI-sB-X9N"/>
+                                    <constraint firstAttribute="height" constant="30" id="f39-em-eKd"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="chevron.backward.2" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPress:" destination="r1o-ve-mCI" eventType="touchUpInside" id="2xp-Oq-KzV"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4fl-sc-gwW">
+                                <rect key="frame" x="20" y="293" width="388" height="340"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ws-kH-7ve">
+                                        <rect key="frame" x="0.0" y="0.0" width="388" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="n5x-ny-SkF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                        <state key="normal" title="Health Ministry Healpline - 1075">
+                                            <color key="titleColor" name="buttonLabelColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="healthMinisterButton:" destination="r1o-ve-mCI" eventType="touchUpInside" id="lyL-8t-Z53"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnY-7n-dGZ">
+                                        <rect key="frame" x="0.0" y="70" width="388" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                        <state key="normal" title="Child Helpline - 1098">
+                                            <color key="titleColor" name="buttonLabelColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="childHelpButton:" destination="r1o-ve-mCI" eventType="touchUpInside" id="RhT-AS-ppL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SP4-26-DYP">
+                                        <rect key="frame" x="0.0" y="140" width="388" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                        <state key="normal" title="Mental Health Helpline - 8046110007">
+                                            <color key="titleColor" name="buttonLabelColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="mentalHealthButton:" destination="r1o-ve-mCI" eventType="touchUpInside" id="3Sc-Tv-BSw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bif-xU-PrE">
+                                        <rect key="frame" x="0.0" y="210" width="388" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                        <state key="normal" title="Senior Citizens Helpline - 14567">
+                                            <color key="titleColor" name="buttonLabelColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="seniorCitizensButton:" destination="r1o-ve-mCI" eventType="touchUpInside" id="W9K-bK-EXc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZE-wY-vOw">
+                                        <rect key="frame" x="0.0" y="280" width="388" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                        <state key="normal" title="MyGov Helpdesk - 9013151515">
+                                            <color key="titleColor" name="buttonLabelColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="myGovtButton:" destination="r1o-ve-mCI" eventType="touchUpInside" id="HjT-kr-S8Q"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bif-xU-PrE" firstAttribute="height" secondItem="1ws-kH-7ve" secondAttribute="height" id="7ql-mD-hZq"/>
+                                    <constraint firstItem="SP4-26-DYP" firstAttribute="width" secondItem="1ws-kH-7ve" secondAttribute="width" id="TIc-bE-YAa"/>
+                                    <constraint firstItem="lnY-7n-dGZ" firstAttribute="width" secondItem="1ws-kH-7ve" secondAttribute="width" id="VyT-LR-twk"/>
+                                    <constraint firstItem="OZE-wY-vOw" firstAttribute="height" secondItem="1ws-kH-7ve" secondAttribute="height" id="czd-Su-c9b"/>
+                                    <constraint firstItem="lnY-7n-dGZ" firstAttribute="height" secondItem="1ws-kH-7ve" secondAttribute="height" id="gVI-79-gJY"/>
+                                    <constraint firstItem="bif-xU-PrE" firstAttribute="width" secondItem="1ws-kH-7ve" secondAttribute="width" id="gxL-cs-Ygw"/>
+                                    <constraint firstItem="SP4-26-DYP" firstAttribute="height" secondItem="1ws-kH-7ve" secondAttribute="height" id="npl-uE-mbH"/>
+                                    <constraint firstItem="OZE-wY-vOw" firstAttribute="width" secondItem="1ws-kH-7ve" secondAttribute="width" id="y1e-9c-xFF"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="koh-FL-RJY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4fl-sc-gwW" firstAttribute="centerY" secondItem="NaA-6C-mCi" secondAttribute="centerY" id="4xR-RK-KIl"/>
+                            <constraint firstItem="J2q-SD-sDl" firstAttribute="leading" secondItem="koh-FL-RJY" secondAttribute="leading" constant="30" id="6yA-iE-iCi"/>
+                            <constraint firstItem="4fl-sc-gwW" firstAttribute="leading" secondItem="koh-FL-RJY" secondAttribute="leading" constant="20" id="7qe-RW-ewG"/>
+                            <constraint firstItem="koh-FL-RJY" firstAttribute="trailing" secondItem="4fl-sc-gwW" secondAttribute="trailing" constant="20" id="BvF-gp-IbQ"/>
+                            <constraint firstItem="koh-FL-RJY" firstAttribute="trailing" secondItem="XTR-Tr-AyS" secondAttribute="trailing" constant="60" id="Gg0-ND-4JK"/>
+                            <constraint firstItem="J2q-SD-sDl" firstAttribute="top" secondItem="koh-FL-RJY" secondAttribute="top" constant="30" id="Ori-x9-kXu"/>
+                            <constraint firstItem="XTR-Tr-AyS" firstAttribute="centerX" secondItem="NaA-6C-mCi" secondAttribute="centerX" id="VfT-hN-TbE"/>
+                            <constraint firstItem="XTR-Tr-AyS" firstAttribute="top" secondItem="koh-FL-RJY" secondAttribute="top" constant="30" id="agH-Yt-2hc"/>
+                            <constraint firstItem="4fl-sc-gwW" firstAttribute="centerX" secondItem="NaA-6C-mCi" secondAttribute="centerX" id="dQY-2h-6w0"/>
+                            <constraint firstItem="XTR-Tr-AyS" firstAttribute="leading" secondItem="koh-FL-RJY" secondAttribute="leading" constant="60" id="tXV-OU-Oy2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NR7-uf-25r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1169" y="1830"/>
         </scene>
         <!--DISTRICT-->
         <scene sceneID="gOe-dj-alk">
@@ -908,7 +1044,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CQO-na-7WP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2455" y="398"/>
+            <point key="canvasLocation" x="1628" y="758"/>
         </scene>
         <!--Select StateID View Controller-->
         <scene sceneID="Qeh-p1-KmB">
@@ -993,7 +1129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o0Z-J9-Mx0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3317" y="398"/>
+            <point key="canvasLocation" x="2514" y="757"/>
         </scene>
         <!--Select DistrictID View Controller-->
         <scene sceneID="t6p-5p-3HW">
@@ -1061,7 +1197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zXT-l8-u2m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4186" y="398"/>
+            <point key="canvasLocation" x="3412" y="757"/>
         </scene>
         <!--District Vaccination Centres View Controller-->
         <scene sceneID="29G-Nl-hQu">
@@ -1178,7 +1314,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P7x-zZ-ndA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5071" y="398"/>
+            <point key="canvasLocation" x="4287" y="757"/>
         </scene>
         <!--District Details View Controller-->
         <scene sceneID="5XT-MF-knp">
@@ -1462,7 +1598,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JRP-O2-xXh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5967.7570093457944" y="397.84017278617711"/>
+            <point key="canvasLocation" x="5214" y="757"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="7Qn-x0-uMq">
@@ -1547,7 +1683,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ojf-LR-XMH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1612" y="-329"/>
+            <point key="canvasLocation" x="743" y="1107"/>
         </scene>
         <!--PIN-->
         <scene sceneID="c4l-4G-27K">
@@ -1651,7 +1787,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xfz-Mj-1AI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2455" y="-329"/>
+            <point key="canvasLocation" x="1628" y="29"/>
         </scene>
         <!--Pin Vaccination Centres View Controller-->
         <scene sceneID="fFO-0n-ffL">
@@ -1768,7 +1904,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gwA-Mz-uBl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3316.8224299065419" y="-329.15766738660909"/>
+            <point key="canvasLocation" x="2514" y="29"/>
         </scene>
         <!--Pincode Details View Controller-->
         <scene sceneID="osc-RB-X97">
@@ -2052,18 +2188,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hyp-ib-sGP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4186" y="-329"/>
+            <point key="canvasLocation" x="3411" y="29"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="iF7-Jf-UT4"/>
-        <designable name="vh5-sO-YYf"/>
-    </designables>
     <resources>
+        <image name="PMModiFace" width="300" height="300"/>
         <image name="chevron.backward.2" catalog="system" width="128" height="105"/>
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="location" catalog="system" width="128" height="121"/>
         <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
+        <image name="pmCareLogo" width="237" height="56"/>
         <namedColor name="buttonColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

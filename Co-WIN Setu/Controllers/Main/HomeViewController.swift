@@ -1,9 +1,8 @@
 import UIKit
+import SafariServices
 
 class HomeViewController: UIViewController
 {
-    fileprivate let application = UIApplication.shared
-    
     @IBOutlet weak var sliderCollectionView: UICollectionView!
     
     let sliderArray = ["Slider1","Slider2","Slider3","Slider4","Slider5","Slider6","Slider7"]
@@ -15,7 +14,7 @@ class HomeViewController: UIViewController
         sliderCollectionView.reloadData()
     }
     
-    // MARK: - Profile & Settings Button
+    // MARK: - Settings Button
     
     @IBAction func settingsButtonPress(_ sender: UIButton)
     {
@@ -36,89 +35,17 @@ class HomeViewController: UIViewController
         UIApplication.shared.windows[0].rootViewController = vc
     }
     
-    // MARK: - Emergency Helpline Buttons
+    // MARK: - PM Cares Donation Website link
     
-    @IBAction func healthMinisterButton(_ sender: UIButton)
+    @IBAction func pmCaresButtonPress(_ sender: UIButton)
     {
-        if let phoneURL = URL(string: "tel://1075")
-        {
-            if application.canOpenURL(phoneURL)
-            {
-                application.open(phoneURL, options: [:], completionHandler: nil)
-            }
-            else
-            {
-                showAlert()
-            }
+        let urlString: String
+        urlString = "https://www.pmcares.gov.in/en/"
+        guard let url = URL(string: urlString) else {
+            return
         }
-    }
-    
-    @IBAction func childHelpButton(_ sender: UIButton)
-    {
-        if let phoneURL = URL(string: "tel://1098")
-        {
-            if application.canOpenURL(phoneURL)
-            {
-                application.open(phoneURL, options: [:], completionHandler: nil)
-            }
-            else
-            {
-                showAlert()
-            }
-        }
-    }
-    
-    @IBAction func mentalHealthButton(_ sender: UIButton)
-    {
-        if let phoneURL = URL(string: "tel://8046110007")
-        {
-            if application.canOpenURL(phoneURL)
-            {
-                application.open(phoneURL, options: [:], completionHandler: nil)
-            }
-            else
-            {
-                showAlert()
-            }
-        }
-    }
-    
-    @IBAction func seniorCitizensButton(_ sender: UIButton)
-    {
-        if let phoneURL = URL(string: "tel://14567")
-        {
-            if application.canOpenURL(phoneURL)
-            {
-                application.open(phoneURL, options: [:], completionHandler: nil)
-            }
-            else
-            {
-                showAlert()
-            }
-        }
-    }
-    
-    @IBAction func myGovtButton(_ sender: UIButton)
-    {
-        if let phoneURL = URL(string: "tel://9013151515")
-        {
-            if application.canOpenURL(phoneURL)
-            {
-                application.open(phoneURL, options: [:], completionHandler: nil)
-            }
-            else
-            {
-                showAlert()
-            }
-        }
-    }
-    
-    func showAlert()
-    {
-        let alert = UIAlertController(title: "Alert", message: "Call feature not available in simulator", preferredStyle: .alert)
-        let okPress = UIAlertAction(title: "Okay", style: .cancel, handler: nil)
-        alert.addAction(okPress)
-        present(alert, animated: true)
+        let vc = SFSafariViewController(url: url)
+        present(vc, animated: true, completion: nil)
     }
 }
 
