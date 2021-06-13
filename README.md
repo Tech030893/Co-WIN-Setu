@@ -54,9 +54,13 @@ Co-WIN Setu app is fully functional app designed using Co-WIN Public API's, whic
 
 [![Welcome-Screen.gif](https://i.postimg.cc/dt6ybD1v/Welcome-Screen.gif)](https://postimg.cc/BX8bDSHw)
 
-[![Home-Slider-Screen.gif](https://i.postimg.cc/Qx8BJsqz/Home-Slider-Screen.gif)](https://postimg.cc/8sYPT29d)
+[![HomePage.png](https://i.postimg.cc/bw0xmHj0/HomePage.png)](https://postimg.cc/nXz9zmrM)
 
-[![Home-Screen.png](https://i.postimg.cc/1t0tDYVP/Home-Screen.png)](https://postimg.cc/DJZnT6cY)
+[![Settings-Page.png](https://i.postimg.cc/xjbtKmq5/Settings-Page.png)](https://postimg.cc/23rQYVQL)
+
+[![Profile-Page.png](https://i.postimg.cc/287dw7YQ/Profile-Page.png)](https://postimg.cc/CzdfMDz5)
+
+[![Helpline-Page.png](https://i.postimg.cc/mZQ7Lytv/Helpline-Page.png)](https://postimg.cc/G9m4zYPK)
 
 [![Vaccination-By-Pincode.png](https://i.postimg.cc/gcBP39cr/Vaccination-By-Pincode.png)](https://postimg.cc/Sj85pvMp)
 
