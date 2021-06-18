@@ -3,7 +3,7 @@
 Co-WIN Setu app is fully functional app designed using Co-WIN Public API's, which provides user to locate vaccination centres using "Pin Code" and "Distict Code". Designed ONLY FOR INDIA.
 
 ## Programming language used
-- Swift
+- Swift 5
 
 ## Deployment Info
 - iOS 14.5
